@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="hesapla.js"></script>
+  </head>
+  <body>
+    
+    <div class="calculator-form">
+      <h1>Age Calculator</h1>
+      <div class="inputs">
+        <div class="block">
+          <label for="date">Date</label>
+          <input
+            type="number"
+            max="31"
+            id="date"
+            class="input"
+            placeholder="day"
+          />
+        </div>
+        <div class="block">
+          <label for="month">Month</label>
+          <input
+            type="number"
+            max="12"
+            id="month"
+            class="input"
+            placeholder="month"
+          />
+        </div>
+        <div class="block">
+          <label for="year">Year</label>
+          <input type="number" id="year" class="input" placeholder="year" />
+        </div>
+      </div>
+      <button type="submit" class="btn" onclick="yasHesapla()">Calculate</button>
+      <p id="goster"></p>
+    </div>
+    
+  </body>
+</html>

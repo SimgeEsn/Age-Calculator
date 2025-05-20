@@ -1,0 +1,6 @@
+# VS Code klasörü
+.vscode/
+
+# Sistem dosyaları (Mac/Windows)
+.DS_Store
+Thumbs.db
